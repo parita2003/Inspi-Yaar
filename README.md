@@ -1,6 +1,5 @@
 
 # Inspi-Yaar
-## AI Content Generator
 
 This project is an AI content generator built using the React framework Next.js, with responsive design via Tailwind CSS and Shadcn. It integrates the Gemini API for content generation, uses PostgreSQL for the database, and Clerk for authentication.
 
