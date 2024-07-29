@@ -1,36 +1,70 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Here's a more concise and clear `README.md` file for your AI Content Generator project:
 
-## Getting Started
+---
 
-First, run the development server:
+# AI Content Generator
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+This project is an AI content generator built using the React framework Next.js, with responsive design via Tailwind CSS and Shadcn. It integrates the Gemini API for content generation, uses PostgreSQL for the database, and Clerk for authentication.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Framework**: Next.js
+- **Styling**: Shadcn, Tailwind CSS
+- **Icons**: Lucide, Flaticon
+- **API**: Gemini API, Google API (free to use)
+- **Database**: PostgreSQL with Drizzle ORM and Neon
+- **Authentication**: Clerk
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Project Structure
 
-## Learn More
+- **Public Folder**: Store images for direct access.
+- **Components Folder**: Automatically download new Shadcn components.
+- **Icons**: Use Lucide for component icons and Flaticon for card icons.
 
-To learn more about Next.js, take a look at the following resources:
+## Functional Overview
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. **Text Input & Templates**: Text is inputted, matched with templates, and passed to the main page.
+2. **Dashboard**: Select content template, fill the form, generate AI content, and edit in a rich text editor.
+3. **Dynamic Rendering**: Interfaces for parameter navigation and content handling.
+4. **Form Input**: Template-specific inputs are passed to the main page on generating content.
+5. **Output**: Display content in Toast UI rich text editor with continuous save functionality using `editorRef`.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Setup Instructions
 
-## Deploy on Vercel
+1. **Install Dependencies**:
+    ```sh
+    npm install
+    ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+2. **Start Development Server**:
+    ```sh
+    npm run dev
+    ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## API Integration
+
+- **Gemini API**: For AI content generation.
+- **Google API**: Additional functionality as needed.
+
+## Database
+
+- **PostgreSQL**: Managed with Drizzle ORM and Neon for cloud hosting.
+
+## Authentication
+
+- **Clerk**: For user authentication and management.
+
+## Usage
+
+1. **Run the app**:
+    ```sh
+    npm run dev
+    ```
+2. **Navigate to the main page**.
+3. **Input text** and select the appropriate template.
+4. **Generate AI content** and edit using the rich text editor.
+5. **Save or copy** the generated content.
+
+---
+
+Feel free to adjust any section to better fit your specific project details!
