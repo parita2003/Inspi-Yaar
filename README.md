@@ -2,7 +2,7 @@ Here's a more concise and clear `README.md` file for your AI Content Generator p
 
 ---
 
-# AI Content Generator
+#Inspi-Yaar: ## AI Content Generator
 
 This project is an AI content generator built using the React framework Next.js, with responsive design via Tailwind CSS and Shadcn. It integrates the Gemini API for content generation, uses PostgreSQL for the database, and Clerk for authentication.
 
@@ -12,7 +12,6 @@ This project is an AI content generator built using the React framework Next.js,
 - **Styling**: Shadcn, Tailwind CSS
 - **Icons**: Lucide, Flaticon
 - **API**: Gemini API, Google API (free to use)
-- **Database**: PostgreSQL with Drizzle ORM and Neon
 - **Authentication**: Clerk
 
 ## Project Structure
@@ -45,10 +44,6 @@ This project is an AI content generator built using the React framework Next.js,
 
 - **Gemini API**: For AI content generation.
 - **Google API**: Additional functionality as needed.
-
-## Database
-
-- **PostgreSQL**: Managed with Drizzle ORM and Neon for cloud hosting.
 
 ## Authentication
 
